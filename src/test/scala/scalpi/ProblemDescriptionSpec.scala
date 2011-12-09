@@ -9,7 +9,7 @@ import scalpi.targetfunction.Maximize
 class ProblemDescriptionSpec extends Specification { 
 
   "A ProblemDescription" should { 
-    "support createion" in {
+    "support specifications of mixed integer linear programming problems" in {
       // max 1*x1 - 2*x2 + 3*x3
       // where:
       // x1 + x2 + x3 > 4
