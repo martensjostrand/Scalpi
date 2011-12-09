@@ -2,6 +2,8 @@ name := "Scalpi"
 
 version := "0.1-SNAPSHOT"
 
+organization := "me.marten"
+
 scalaVersion := "2.9.1"
 
 libraryDependencies ++= Seq(
@@ -11,3 +13,4 @@ libraryDependencies ++= Seq(
 resolvers ++= Seq("snapshots" at "http://scala-tools.org/repo-snapshots",
                     "releases"  at "http://scala-tools.org/repo-releases")
 
+scalacOptions ++= Seq("-deprecation", "-unchecked")
