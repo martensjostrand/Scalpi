@@ -4,7 +4,7 @@ import org.specs2.mutable._
 import scalpi.variable._
 import scalpi.constraint.Constraint
 import scalpi.constraint.ConstraintType._
-import scalpi.target.Maximize
+import scalpi.targetfunction.Maximize
 
 class ProblemDescriptionSpec extends Specification { 
 
