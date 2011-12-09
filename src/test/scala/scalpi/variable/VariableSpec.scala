@@ -1,7 +1,7 @@
 package scalpi.variable
 import org.specs2.mutable._
 
-class Variable extends Specification {
+class VariableSpec extends Specification {
   "A Variable" should { 
     "support pattern matching" in {
       val vars = List(
