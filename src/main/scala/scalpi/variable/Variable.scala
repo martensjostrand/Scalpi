@@ -8,9 +8,9 @@ package scalpi.variable
     def getLowerBound: Option[T]
   }
 
-  abstract sealed class Variable[T]()
+  abstract sealed class Variable[T]
 
-  abstract sealed class BoundedVariable[T]() extends Variable[T] with UpperBound[T] with LowerBound[T]{ 
+  abstract sealed class BoundedVariable[T] extends Variable[T] with UpperBound[T] with LowerBound[T]{ 
     var lowerBound: Option[T] = None
     var upperBound: Option[T] = None
     
